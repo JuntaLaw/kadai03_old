@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <title>myMemoPad</title>
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <!-- jQuery-->
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  -->
+
+</head>
+
+<body> 
+  <h1>Tarot Journal</h1> 
+  <input type="button" value="パスワードを入力して秘密のページへアクセスする" onclick="gate();">
+
+  <main>
+
+  </main>
+
+  
+  <footer> 
+  </footer>
+
+  <!-- 以下にjsを書いていきます -->
+ <!-- jQueryのjsのコードを読み込む -->
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  -->
+   <!-- jsを紐づける -->
+   <script src="js/login.js"> </script> 
+
+<script type="text/javascript">
+  function gate() {
+     var UserInput = prompt("パスワードを入力して下さい:","");
+     location.href = UserInput + ".html";
+  }
+</script>
+</body>
+
+</html>
