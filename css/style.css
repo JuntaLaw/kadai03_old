@@ -183,3 +183,8 @@ h3{
   margin: 0px;
   padding: 0px 30px 30px;
 } 
+
+/* 結果ボタンエリア */
+.saveOrReset {
+  display: flex;
+}
